@@ -330,6 +330,14 @@ td:last-child {
     opacity: .75;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+
 @media (max-width: 119.9rem) {
     .principal-card p {
         font-weight: bold;
@@ -388,6 +396,10 @@ td:last-child {
     .info{
         flex-wrap: wrap;
     }
+
+    .section-title{
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 490px) {
@@ -399,6 +411,13 @@ td:last-child {
         margin-left: 20%;
     }
     
+    .icono {
+        height: 2rem;
+    }
 
+
+    .product-section-title{
+        margin-top: 2rem;
+    }
 }
 
