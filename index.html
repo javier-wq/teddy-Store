@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddy Store</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/index.css" as="style">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="./assets/logo.jpg" alt="logo" class="logo">
+            <ul class="options">
+                <li><a href="#" class="items">Inicio</a></li>
+                <li><a href="#" class="items">Productos</a></li>
+                <li><a href="#" class="items">Acerca de</a></li>
+                <li class="submenu"> 
+                    <img src="./assets/carrito.svg" alt="carrito" class="icono">
+                    <div id="carrito">
+                        <table id="lista-carrito" class="listado">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured">
+                <div class="principal-card">
+                    <h1>Teddy Store</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis vel nihil impedit aut odit, perspiciatis ratione quod voluptas quas in eos non magnam tenetur, animi, laboriosam rerum fugit sint.</p>
+                </div>
+                <div class="second-cards">
+                    <div class="cards second-cards-1"><h3>Nuevos lanzamientos</h3></div>
+                    <div class="second-cards-2">
+                        <div class="cards second-cards-3"><h3>En oferta!!</h3></div>
+                        <div class="cards second-cards-4"><h3>Regalos</h3></div>
+                    </div>
+                </div>
+                
+        </section>
+        <section class="info">
+            <div class="info-card">
+                <img src="./assets/envio-rapido.svg" alt="icono" class="info-icon">
+                <div class="info-desc">
+                    <h4>Envio Gratis</h4>
+                    <p>Envio gratis a toddo el pais</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <img src="./assets/auriculares-de-usuario.svg" alt="icono" class="info-icon">
+                <div class="info-desc">
+                    <h4>Soporte online 24/7</h4>
+                    <p>Soporte tecnico 24/7</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <img src="./assets/insignia-porcentaje.svg" alt="icono" class="info-icon">
+                <div class="info-desc">
+                    <h4>Garantia de pago</h4>
+                    <p>30 dias de devolución</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="product-section-title">
+            <p class="section-title">Productos destacados</p>
+        </div>
+
+        <section class="products">
+            <div class="products-card">
+                <img src="./assets/oso.jpg" alt="oso" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 1</p>
+                    <p class="product-desc">Oso de peluche</p>
+                    <p class="product-price">$20.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/tiburon.jpg" alt="tiburon" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 2</p>
+                    <p class="product-desc">Tiburon de peluche</p>
+                    <p class="product-price">$30.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/conejo.jpg" alt="Conejo" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 3</p>
+                    <p class="product-desc">Conejo de peluche</p>
+                    <p class="product-price">$25.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/pinguino.jpg" alt="pinguino" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 4</p>
+                    <p class="product-desc">Pinguino de peluche</p>
+                    <p class="product-price">$40.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/mapache.jpg" alt="mapache" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 5</p>
+                    <p class="product-desc">Mapache de peluche</p>
+                    <p class="product-price">$30.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="products-card">
+                <img src="./assets/ardilla.jpg" alt="ardilla" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 6</p>
+                    <p class="product-desc">Ardilla de peluche</p>
+                    <p class="product-price">$25.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/tortuga.jpg" alt="tortuga" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 7</p>
+                    <p class="product-desc">Tortuga de peluche</p>
+                    <p class="product-price">$30.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/dinosaurio.jpg" alt="dinosaurio" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 8</p>
+                    <p class="product-desc">Dinosaurio de peluche</p>
+                    <p class="product-price">$40.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/cocodrilo.jpg" alt="cocodrilo" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 9</p>
+                    <p class="product-desc">Cocodrilo de peluche</p>
+                    <p class="product-price">$20.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="products-card">
+                <img src="./assets/raton.jpg" alt="raton" class="product-img">
+                <div class="product-data">
+                    <p class="product-title">Peluche 10</p>
+                    <p class="product-desc">Raton de peluche</p>
+                    <p class="product-price">$20.00</p>
+                    <button class="product-button">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
