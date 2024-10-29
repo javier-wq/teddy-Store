@@ -103,6 +103,15 @@ th:last-child,
 td:last-child {
     padding-right: 0; }
 
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 .featured {
     display: flex;
     margin: 1rem;
